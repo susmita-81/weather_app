@@ -1,3 +1,40 @@
+# Weather App
+
+A simple and responsive **Weather App** built with React and OpenWeatherMap API.
+
+## Features
+
+- **Search functionality**: Enter any city name to get its current weather.
+- **Weather data display**:
+  - Temperature (in Celsius)
+  - Weather condition (Clear, Clouds, Rain, etc.)
+  - Humidity
+  - Wind speed
+  - Weather icon representing the current condition
+- **Responsive design**: Works on both desktop and mobile screens.
+- **Show more** (optional): Ability to expand additional details if implemented.
+- **Error handling**: Alerts user if city name is invalid or empty.
+- **Dynamic weather icons**: Changes according to weather condition.
+
+## Technologies Used
+
+- React.js
+- Vite (development server)
+- OpenWeatherMap API
+- CSS for styling
+
+## How it works
+
+1. The user types a city name in the search box.  
+2. On clicking the search button, the app fetches weather data from **OpenWeatherMap API**.  
+3. The app displays the weather data with relevant icons and information.
+
+## How to run locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/susmita-81/weather_app.git
 <<<<<<< HEAD
 # React + Vite
 
