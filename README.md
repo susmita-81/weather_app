@@ -12,7 +12,6 @@ A simple and responsive **Weather App** built with React and OpenWeatherMap API.
   - Wind speed
   - Weather icon representing the current condition
 - **Responsive design**: Works on both desktop and mobile screens.
-- **Show more** (optional): Ability to expand additional details if implemented.
 - **Error handling**: Alerts user if city name is invalid or empty.
 - **Dynamic weather icons**: Changes according to weather condition.
 
