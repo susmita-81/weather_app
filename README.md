@@ -1,32 +1,79 @@
-# Weather App
+**1**.🌦️ Weather Dashboard Web App
 
-A simple and responsive **Weather App** built with React and OpenWeatherMap API.
+A responsive weather application built with **React** that allows users to search for any city worldwide and view real-time weather details including temperature, humidity, wind speed, and conditions with matching icons and backgrounds.
 
-## Features
+---
 
-- **Search functionality**: Enter any city name to get its current weather.
-- **Weather data display**:
-  - Temperature (in Celsius)
-  - Weather condition (Clear, Clouds, Rain, etc.)
-  - Humidity
-  - Wind speed
-  - Weather icon representing the current condition
-- **Responsive design**: Works on both desktop and mobile screens.
-- **Error handling**: Alerts user if city name is invalid or empty.
-- **Dynamic weather icons**: Changes according to weather condition.
+## 🚀 Features
 
-## Technologies Used
+- 🔍 **Search any city** and fetch live weather data (OpenWeatherMap API).
+- 🌡️ Display **temperature** in both °C and °F.
+- ☁️ Shows **weather condition** with icons (sunny, cloudy, rainy, etc.).
+- 💧 Displays **humidity** percentage.
+- 🌬️ Displays **wind speed** in km/h.
+- 📅 **5-day forecast** with daily weather details.
+- 🎨 Dynamic **background change** based on weather conditions.
+- 📱 Fully **responsive** for desktop and mobile.
+- ⚠️ **Error handling** for invalid city names.
 
-- React.js
-- Vite (development server)
-- OpenWeatherMap API
-- CSS for styling
+---
 
-## How it works
+## 🛠️ Technologies Used
 
-1. The user types a city name in the search box.  
-2. On clicking the search button, the app fetches weather data from **OpenWeatherMap API**.  
-3. The app displays the weather data with relevant icons and information.
+- **React (Vite)** – UI and component-based development
+- **JavaScript (ES6+)** – logic and state management
+- **CSS** – styling and responsive design
+- **OpenWeatherMap API** – weather and forecast data
+
+---
+
+## 📂 Project Structure
+
+weather-dashboard/
+│── public/ # Static files
+│── src/
+│ ├── assets/ # Weather icons
+│ ├── components/
+│ │ └── Weather.jsx # Main weather component
+│ ├── Weather.css # Styling
+│ └── App.jsx # Root component
+│── .env # API key (VITE_APP_ID)
+│── package.json
+│── README.md
+
+**Task Name:** Weather Dashboard Web App
+
+**Objective:** Create a responsive weather application with search, weather info display, and error handling.
+
+**Core Features Implemented:**
+
+Search any city and fetch weather data (temperature, humidity, wind speed, condition, icon).
+
+Error handling for invalid cities (shows red error message).
+
+Background dynamically changes based on weather conditions.
+
+Celsius ↔ Fahrenheit toggle for temperature.
+
+Weekly 5-day forecast with date, time, weather icon, and temperature.
+
+**Bonus:**
+
+Implemented background themes for sunny, rainy, cloudy, mist, thunderstorm, snowy, windy, etc.
+
+Smooth responsive design for both desktop and mobile.
+
+**Approach:**
+
+Used React + Vite for fast development.
+
+Integrated OpenWeatherMap API for real-time weather and forecast.
+
+Used useRef, useState, and useEffect for search, API calls, and UI updates.
+
+Implemented reusable weather icon mappings and background classes for better scalability.
+
+Added error handling and user experience improvements (alerts + messages).
 
 ## How to run locally
 
