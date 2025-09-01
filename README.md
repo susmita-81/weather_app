@@ -108,7 +108,7 @@ Challenge: OpenWeatherMap returns 3-hour intervals for forecast.
 
 Solution: Grouped data by date and selected first entry for daily view.
 
-Challenge: Handling many different weather conditions (Mist, Smoke, Dust, etc.).
+Challenge: Handling many different weather conditions (clear, rainy, mist, etc.).
 
 Solution: Created a backgroundClasses object mapping all similar conditions to a single style.
 
@@ -134,30 +134,9 @@ Covers all required features + bonus features.
 
 Clean, modular code with proper documentation.
 
-7. Future Improvements
-
-Add current location (GPS) based weather.
-
-Add hourly forecast charts using libraries like Recharts or Chart.js.
-
-Improve UI with animations and dark mode.
-
-Store recent searches in local storage for quick access.
 **Task Name:** Weather Dashboard Web App
 
 **Objective:** Create a responsive weather application with search, weather info display, and error handling.
-
-**Core Features Implemented:**
-
-Search any city and fetch weather data (temperature, humidity, wind speed, condition, icon).
-
-Error handling for invalid cities (shows red error message).
-
-Background dynamically changes based on weather conditions.
-
-Celsius ↔ Fahrenheit toggle for temperature.
-
-Weekly 5-day forecast with date, time, weather icon, and temperature.
 
 **Bonus:**
 
