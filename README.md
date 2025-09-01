@@ -29,7 +29,7 @@ A responsive weather application built with **React** that allows users to searc
 
 ## 📂 Project Structure
 
-weather-dashboard/
+WEATHER/
 │── public/ # Static files
 │── src/
 │ ├── assets/ # Weather icons
