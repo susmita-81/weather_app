@@ -40,6 +40,8 @@ WEATHER/
 │── .env # API key (VITE_APP_ID)
 │── package.json
 │── README.md
+
+
 📄 Documentation – Weather Dashboard Web App
 1. Problem Understanding
 
