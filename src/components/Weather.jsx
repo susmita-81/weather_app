@@ -155,7 +155,7 @@ const Weather = () => {
 
 
 
-{weatherData ? (   // ✅ only render if we have valid data
+{weatherData ? (  
   <>
     <img src={weatherData.icon || clear_icon} alt={weatherData.condition} className="weather-icon"/>
     <p className="temperature" style={{ color: unit === "C" ? "#00ffcc" : "#ffdd00" }}>
@@ -193,7 +193,7 @@ const Weather = () => {
       ))}
     </div>
   </>
-) : null}   {/* ✅ hides UI if no city found */}
+) : null}   {}
 
     </div>
   );
