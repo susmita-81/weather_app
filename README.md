@@ -1,4 +1,4 @@
-**1**.🌦️** Weather Dashboard Web App**
+**1**.🌦️ Weather Dashboard Web App
 
 A responsive weather application built with **React** that allows users to search for any city worldwide and view real-time weather details including temperature, humidity, wind speed, and conditions with matching icons and backgrounds.
 
